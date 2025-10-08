@@ -36,8 +36,34 @@ index.html
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zeno Cafe</title>
-  <style>
-    body {
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <header> ZENO CAFE </header>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="menu.html">MENU</a>
+    <a href="admin.html">ADMIN</a>
+    <a href="contact.html">CONTACT US</a>
+  </nav>
+
+  <div class="container">
+    <div class="quote">“GOOD FOOD IS THE FOUNDATION OF GENUINE HAPPINESS.”</div>
+    <div class="quote">“AT ZENO, EVERY BITE TELLS A STORY.”</div>
+    <div class="normal-text">Welcome to Zeno Cafe — where taste meets tranquility.</div>
+    <div class="normal-text">Enjoy our carefully crafted dishes made with love and passion.</div>
+    <img src="home.jpg">
+  </div>
+  <h5 align="center">SURYA PRAKASH S 25014536</h5>
+  <footer>
+  <p align="right">&copy; designed and developed by surya prakash s</p>
+</footer>
+</body>
+</html>
+
+style1.css
+
+body {
       margin: 0;
       background-color: black;
       color: white;
@@ -83,30 +109,6 @@ index.html
       width: 70%;
       max-width: 700px;
     }
-  </style>
-</head>
-<body>
-  <header> ZENO CAFE </header>
-  <nav>
-    <a href="index.html">HOME</a>
-    <a href="menu.html">MENU</a>
-    <a href="admin.html">ADMIN</a>
-    <a href="contact.html">CONTACT US</a>
-  </nav>
-
-  <div class="container">
-    <div class="quote">“GOOD FOOD IS THE FOUNDATION OF GENUINE HAPPINESS.”</div>
-    <div class="quote">“AT ZENO, EVERY BITE TELLS A STORY.”</div>
-    <div class="normal-text">Welcome to Zeno Cafe — where taste meets tranquility.</div>
-    <div class="normal-text">Enjoy our carefully crafted dishes made with love and passion.</div>
-    <img src="home.jpg">
-  </div>
-  <h5 align="center">SURYA PRAKASH S 25014536</h5>
-  <footer>
-  <p align="right">&copy; designed and developed by surya prakash s</p>
-</footer>
-</body>
-</html>
 
 menu.html
 
@@ -116,52 +118,7 @@ menu.html
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Menu - Zeno Cafe</title>
-  <style>
-    body {
-      margin: 0;
-      background-color: black;
-      color: white;
-    }
-    header {
-      background-color: black;
-      padding: 20px;
-      text-align: center;
-      font-size: 28px;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-    nav {
-      background-color: black;
-      display: flex;
-      justify-content: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-    }
-    nav a:hover {
-      color: yellow;
-    }
-    .menu-section {
-      text-align: center;
-      padding: 30px;
-    }
-    .menu-section h2 {
-      color: yellow;
-      margin-bottom: 20px;
-    }
-    .item {
-      margin: 15px 0;
-    }
-    img {
-      width: 200px;
-      border-radius: 10px;
-      margin-top: 10px;
-    }
-  </style>
+   <link rel="stylesheet" href="style2.css">
 </head>
 <body>
   <header> ZENO CAFE </header>
@@ -191,6 +148,55 @@ menu.html
 </body>
 </html>
 
+style2.css
+
+body {
+      margin: 0;
+      background-color: black;
+      color: white;
+    }
+    header {
+      background-color: black;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+    .quote {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    .normal-text {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    img {
+      margin-top: 30px;
+      border-radius: 15px;
+      width: 70%;
+      max-width: 700px;
+    }
+
 admin.html
 <!DOCTYPE html>
 <html lang="en">
@@ -198,8 +204,41 @@ admin.html
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin - Zeno Cafe</title>
-  <style>
-    body {
+  <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+  <header> ZENO CAFE </header>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="menu.html">MENU</a>
+    <a href="admin.html">ADMIN</a>
+    <a href="contact.html">CONTACT US</a>
+  </nav>
+
+  <div class="member">
+    <img src="ceo.jpg" alt="CEO">
+    <div class="role">CEO</div>
+    <div class="name">SURYA</div>
+  </div>
+  <div class="member">
+    <img src="fo.jpg" alt="FOUNDER">
+    <div class="role">FOUNDER</div>
+    <div class="name">AASHIF</div>
+  </div>
+  <div class="member">
+    <img src="ec.jpg" alt="EXECUTIVE CHEF">
+    <div class="role">EXECUTIVE CHEF</div>
+    <div class="name">DANIEL</div>
+  </div>
+  <footer>
+  <p align="right">&copy; designed and developed by surya prakash s</p>
+</footer>
+</body>
+</html>
+
+style3.css
+body {
       margin: 0;
       background-color: black;
       color: white;
@@ -244,7 +283,15 @@ admin.html
       margin-top: 5px;
       font-size: 18px;
     }
-  </style>
+
+contact.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Zeno Cafe</title>
+   <link rel="stylesheet" href="style4.css">
 </head>
 <body>
   <header> ZENO CAFE </header>
@@ -255,36 +302,20 @@ admin.html
     <a href="contact.html">CONTACT US</a>
   </nav>
 
-  <div class="member">
-    <img src="ceo.jpg" alt="CEO">
-    <div class="role">CEO</div>
-    <div class="name">SURYA</div>
+  <div class="contact-box">
+    <h2>CONTACT NUMBER: 9876543210</h2>
+    <p>ADDRESS: NO 210/A, ZENO STREET, GREEN AVENUE, CHENNAI - 600045</p>
   </div>
-  <div class="member">
-    <img src="fo.jpg" alt="FOUNDER">
-    <div class="role">FOUNDER</div>
-    <div class="name">AASHIF</div>
-  </div>
-  <div class="member">
-    <img src="ec.jpg" alt="EXECUTIVE CHEF">
-    <div class="role">EXECUTIVE CHEF</div>
-    <div class="name">DANIEL</div>
-  </div>
+  
   <footer>
   <p align="right">&copy; designed and developed by surya prakash s</p>
 </footer>
+
 </body>
 </html>
 
-contact.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact - Zeno Cafe</title>
-  <style>
-    body {
+style4.css
+ body {
       margin: 0;
       font-family: Arial, sans-serif;
       background-size: cover;
@@ -323,35 +354,13 @@ contact.html
       border-radius: 15px;
       text-align: center;
     }
-  </style>
-</head>
-<body>
-  <header> ZENO CAFE </header>
-  <nav>
-    <a href="index.html">HOME</a>
-    <a href="menu.html">MENU</a>
-    <a href="admin.html">ADMIN</a>
-    <a href="contact.html">CONTACT US</a>
-  </nav>
-
-  <div class="contact-box">
-    <h2>CONTACT NUMBER: 9876543210</h2>
-    <p>ADDRESS: NO 210/A, ZENO STREET, GREEN AVENUE, CHENNAI - 600045</p>
-  </div>
-  
-  <footer>
-  <p align="right">&copy; designed and developed by surya prakash s</p>
-</footer>
-
-</body>
-</html>
 
 ```
 ## OUTPUT:
-![alt text](<Screenshot (44).png>) 
-![alt text](<Screenshot (41).png>) 
-![alt text](<Screenshot (42).png>) 
-![alt text](<Screenshot (43).png>)
+![alt text](<Screenshot (49).png>) 
+![alt text](<Screenshot (46).png>) 
+![alt text](<Screenshot (47).png>) 
+![alt text](<Screenshot (48).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.

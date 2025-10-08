@@ -1,0 +1,45 @@
+body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    header {
+      background-color: black;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: double;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    .member {
+      display: inline-block;
+      margin: 30px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+    }
+    .role {
+      font-weight: 900;
+      margin-top: 10px;
+    }
+    .name {
+        font-weight: bolder;
+      margin-top: 5px;
+      font-size: 18px;
+    }
