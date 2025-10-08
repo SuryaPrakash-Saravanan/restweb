@@ -101,6 +101,10 @@ index.html
     <div class="normal-text">Enjoy our carefully crafted dishes made with love and passion.</div>
     <img src="home.jpg">
   </div>
+  <h5 align="center">SURYA PRAKASH S 25014536</h5>
+  <footer>
+  <p align="right">&copy; designed and developed by surya prakash s</p>
+</footer>
 </body>
 </html>
 
@@ -183,6 +187,7 @@ menu.html
     <div class="item">CHICKEN NOODLES – ₹100 <br><img src="cr.jpg" alt="Chicken Noodles"></div>
     <div class="item">EGG NOODLES – ₹100 <br><img src="en.jpg" alt="Egg Noodles"></div>
   </div>
+  
 </body>
 </html>
 
@@ -265,6 +270,9 @@ admin.html
     <div class="role">EXECUTIVE CHEF</div>
     <div class="name">DANIEL</div>
   </div>
+  <footer>
+  <p align="right">&copy; designed and developed by surya prakash s</p>
+</footer>
 </body>
 </html>
 
@@ -330,14 +338,20 @@ contact.html
     <h2>CONTACT NUMBER: 9876543210</h2>
     <p>ADDRESS: NO 210/A, ZENO STREET, GREEN AVENUE, CHENNAI - 600045</p>
   </div>
+  
+  <footer>
+  <p align="right">&copy; designed and developed by surya prakash s</p>
+</footer>
+
 </body>
 </html>
+
 ```
 ## OUTPUT:
-![alt text](<Screenshot (40).png>) 
-![alt text](<Screenshot (37).png>) 
-![alt text](<Screenshot (38).png>) 
-![alt text](<Screenshot (39).png>)
+![alt text](<Screenshot (44).png>) 
+![alt text](<Screenshot (41).png>) 
+![alt text](<Screenshot (42).png>) 
+![alt text](<Screenshot (43).png>)
 
 ## RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
